@@ -4,7 +4,7 @@ import { ShieldCheck, Users, Target, Award, Globe, History, CheckCircle2 } from 
 
 const About = () => {
   return (
-    <div className="pt-24">
+    <div className="pt-16">
       {/* Header - Immersive with Background */}
       <section className="relative py-32 md:py-48 px-6 text-center overflow-hidden bg-slate-900">
         <div className="absolute inset-0 opacity-40">
@@ -28,8 +28,10 @@ const About = () => {
               <span className="text-gradient">Pure Trust</span>
             </h1>
             <p className="text-xl text-slate-400 max-w-2xl mx-auto leading-relaxed">
-              Since our inception, Evvapure Hygiene has been at the forefront of the personal care 
-              manufacturing industry, combining scientific innovation with a deep commitment to human well-being.
+              Evvapure Hygiene is an initiative led by Zoic’s Managing Director, Vivek Singla, 
+              built on the strong foundation of Zoic’s manufacturing excellence since 1990. 
+              Combining decades of expertise with modern innovation, Evvapure delivers trusted 
+              hygiene solutions with a deep commitment to quality and human well-being.
             </p>
           </motion.div>
         </div>
@@ -42,27 +44,29 @@ const About = () => {
             <div className="space-y-8">
               <h2 className="text-sm font-bold text-brand-500 uppercase tracking-[0.3em]">Our Journey</h2>
               <h3 className="text-4xl md:text-5xl font-bold text-slate-900 leading-tight">
-                From Local Roots to <br />Global Excellence
+                From Legacy Manufacturing <br />to Modern Innovation
               </h3>
               <p className="text-slate-600 text-lg leading-relaxed">
-                Evvapure Hygiene started with a simple goal: to make high-quality hygiene products 
-                accessible to every household. Over the last two decades, we have evolved into a 
-                manufacturing powerhouse, serving some of the world's most recognized brands.
+                Zoic has been a trusted name in manufacturing since 1990, building a strong 
+                reputation in both herbal and allopathic product segments. With over three decades 
+                of experience, the company has consistently delivered high-quality solutions across 
+                domestic and international markets.
               </p>
               <p className="text-slate-600 text-lg leading-relaxed">
-                Our growth is fueled by continuous investment in European technology and a 
-                relentless focus on Research & Development. Today, our facility stands as a 
-                benchmark for hygiene and efficiency in the region.
+                Under the leadership of Managing Director Vivek Singla, Evvapure Hygiene was 
+                established to extend this legacy into the hygiene and personal care space. 
+                Backed by advanced manufacturing capabilities and continuous R&D, Evvapure stands 
+                as a modern brand rooted in proven expertise.
               </p>
               
               <div className="grid grid-cols-2 gap-8 pt-8">
                 <div>
-                  <div className="text-4xl font-bold text-accent-500 mb-2">1999</div>
-                  <p className="text-sm text-slate-400 uppercase tracking-widest font-bold">Year Founded</p>
+                  <div className="text-4xl font-bold text-accent-500 mb-2">1990</div>
+                  <p className="text-sm text-slate-400 uppercase tracking-widest font-bold">Manufacturing Since</p>
                 </div>
                 <div>
-                  <div className="text-4xl font-bold text-accent-500 mb-2">50,000</div>
-                  <p className="text-sm text-slate-400 uppercase tracking-widest font-bold">Sq. Ft. Facility</p>
+                  <div className="text-4xl font-bold text-accent-500 mb-2">35+</div>
+                  <p className="text-sm text-slate-400 uppercase tracking-widest font-bold">Years of Experience</p>
                 </div>
               </div>
             </div>
@@ -83,8 +87,8 @@ const About = () => {
               </div>
               <div className="absolute -top-10 -left-10 bg-brand-500 p-10 rounded-[3rem] shadow-2xl text-white hidden md:block">
                 <History className="w-10 h-10 mb-4" />
-                <div className="text-2xl font-bold">25+ Years</div>
-                <div className="text-sm opacity-70">Industry Experience</div>
+                <div className="text-2xl font-bold">35+ Years</div>
+                <div className="text-sm opacity-70">Manufacturing Excellence</div>
               </div>
             </motion.div>
           </div>
@@ -106,9 +110,9 @@ const About = () => {
               </div>
               <h2 className="text-3xl font-bold text-slate-900 mb-6">Our Mission</h2>
               <p className="text-slate-600 text-lg leading-relaxed">
-                To manufacture and deliver high-quality, safe, and affordable hygiene products 
-                globally, ensuring every individual has access to the best personal care solutions. 
-                We strive to be the invisible force behind the world's most trusted hygiene brands.
+                To leverage Zoic’s decades of manufacturing expertise to deliver high-quality, 
+                safe, and affordable hygiene products globally through Evvapure. We aim to 
+                empower brands and consumers with reliable solutions built on trust and innovation.
               </p>
             </motion.div>
 
@@ -124,9 +128,8 @@ const About = () => {
               </div>
               <h2 className="text-3xl font-bold mb-6">Our Vision</h2>
               <p className="text-white/80 text-lg leading-relaxed">
-                To be the most trusted global partner in hygiene manufacturing, recognized for 
-                our innovation, sustainability, and unwavering commitment to quality. We aim 
-                to set new benchmarks in production efficiency and product safety.
+                To position Evvapure as a globally trusted hygiene brand backed by Zoic’s legacy, 
+                setting new benchmarks in quality, innovation, and sustainable manufacturing practices.
               </p>
             </motion.div>
           </div>
@@ -143,10 +146,10 @@ const About = () => {
 
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
             {[
-              { title: 'Quality First', icon: <ShieldCheck />, desc: 'No compromises on the safety and efficacy of our products.' },
-              { title: 'Innovation', icon: <Award />, desc: 'Constantly evolving our processes and formulations.' },
-              { title: 'Customer Centric', icon: <Users />, desc: 'Tailoring solutions to meet the unique needs of our partners.' },
-              { title: 'Integrity', icon: <ShieldCheck />, desc: 'Transparent and ethical business practices in everything we do.' }
+              { title: 'Quality First', icon: <ShieldCheck />, desc: 'Driven by Zoic’s legacy of uncompromised manufacturing standards.' },
+              { title: 'Innovation', icon: <Award />, desc: 'Continuously advancing products under the vision of Vivek Singla.' },
+              { title: 'Customer Centric', icon: <Users />, desc: 'Delivering tailored solutions for modern hygiene needs.' },
+              { title: 'Integrity', icon: <ShieldCheck />, desc: 'Building trust through transparent and ethical practices.' }
             ].map((value, i) => (
               <motion.div 
                 key={i}
@@ -175,8 +178,8 @@ const About = () => {
               <h2 className="text-sm font-bold text-brand-400 uppercase tracking-[0.3em] mb-6">Global Standards</h2>
               <h3 className="text-4xl md:text-5xl font-bold mb-8 leading-tight">Certified for <br />Your Peace of Mind</h3>
               <p className="text-slate-400 text-lg leading-relaxed mb-12">
-                Our facility and processes are audited and certified by international bodies 
-                to ensure we meet the highest benchmarks for quality, safety, and environmental responsibility.
+                Backed by Zoic’s established manufacturing systems, our processes follow global 
+                certifications ensuring the highest benchmarks for safety, quality, and compliance.
               </p>
               
               <div className="grid sm:grid-cols-2 gap-6">

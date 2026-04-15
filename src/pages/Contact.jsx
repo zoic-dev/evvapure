@@ -4,7 +4,7 @@ import { Mail, Phone, MapPin, Send, Clock, Globe, MessageSquare } from 'lucide-r
 
 const Contact = () => {
   return (
-    <div className="pt-24">
+    <div className="pt-16">
       {/* Hero Header */}
       <section className="section-padding bg-slate-50">
         <div className="container-wide">

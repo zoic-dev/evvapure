@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 const Products = () => {
   return (
-    <div className="pt-24">
+    <div className="pt-16">
       {/* Hero */}
       <section className="section-padding bg-slate-50">
         <div className="container-wide">
@@ -190,7 +190,7 @@ const Products = () => {
               </p>
               <div className="flex flex-wrap gap-6">
                 <Link to="/contact" className="btn-primary">Start Your Project</Link>
-                <Link to="/manufacturing" className="btn-secondary !bg-white/10 !backdrop-blur-md hover:!bg-white/20">Our Capabilities</Link>
+                {/* <Link to="/manufacturing" className="btn-secondary !bg-white/10 !backdrop-blur-md hover:!bg-white/20">Our Capabilities</Link> */}
               </div>
             </div>
           </div>
